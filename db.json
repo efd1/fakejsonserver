@@ -1,31 +1,29 @@
 {
-"posts": [
-{
-"id": 1,
-"title": "Post 1"
-},
-{
-"id": 2,
-"title": "Post 2"
-},
-{
-"id": 3,
-"title": "Post 3"
-}
-],
-"comments": [
-{
-"id": 1,
-"body": "some comment",
-"postId": 1
-},
-{
-"id": 2,
-"body": "some comment",
-"postId": 1
-}
-],
-"profile": {
-"name": "typicode"
-}
+  "playlists": [
+    {
+      "id": 1,
+      "title": "Playlist 1",
+      "podcasts": [1, 2]
+    },
+    {
+      "id": 2,
+      "title": "Playlist 2",
+      "podcasts": [2]
+    },
+    {
+      "id": 3,
+      "title": "Playlist 3",
+      "podcasts": [1]
+    }
+  ],
+  "podcasts": [
+    {
+      "id": 1,
+      "body": "some comment"
+    },
+    {
+      "id": 2,
+      "body": "some comment"
+    }
+  ]
 }
