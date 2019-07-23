@@ -3,27 +3,30 @@
     {
       "id": 1,
       "title": "Playlist 1",
+      "description": "qwe",
       "podcasts": [1, 2]
     },
     {
       "id": 2,
       "title": "Playlist 2",
+      "description": "qwe",
       "podcasts": [2]
     },
     {
       "id": 3,
       "title": "Playlist 3",
+      "description": "qwe",
       "podcasts": [1]
     }
   ],
   "podcasts": [
     {
       "id": 1,
-      "body": "some comment"
+      "title": "Podcast #1"
     },
     {
       "id": 2,
-      "body": "some comment"
+      "title": "Podcast #2"
     }
   ]
 }
