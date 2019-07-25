@@ -1,0 +1,14 @@
+{
+  "name": "fakejsonserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/efd1/fakejsonserver.git",
+  "author": "Enguerran <enguerran@dector.fr>",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3004 --middlewares ./middleware.js"
+  },
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
+}
